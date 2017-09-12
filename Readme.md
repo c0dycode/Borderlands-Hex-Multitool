@@ -25,6 +25,11 @@ Q: What is the Array-Limit?
 A: This is usually not needed. However, people that come across this limit now have an automatic way of patching. 
    Example here: https://github.com/c0dycode/BL2ModStuff/tree/master/Hexediting#removing-the-100-element-limit
 
+Q: My Paths are not saving, what should I do?
+
+A: Go to "%localappdata%\BorderlandsHexMultitool" and delete the subfolders, then try again!
+   If that also doesn't solve your problem, try running the tool as administrator. Should that also not work, please contact me!
+
 Q: Why is there no Sanity Check Bypass for Items yet?
 
 A: I haven't found a way to make it patchable yet. Patching them, makes the game no longer bootable. If you want/need this, use the Cheat Engine Table to use this bypass.
@@ -35,6 +40,12 @@ A: BabyRage indeed BabyRage
 
 
 Changelog:
+# v1.4
+- Added Tooltips to "Enable" in "Console and Set Command", "Spacetrigger" in "Backpack" and "Array-Limit"
+- Added the possibility to set "Custom" ConsoleKeys. To activate, rightclick the Combobox where "F6" and "Tilde" are listed and check "Custom". 
+  The Combobox will turn into a textbox, where you'll type in your own Key. You can still type in F6 or Tilde ofc.
+- By adding the "custom" ConsoleKeys, I saw that setting ConsoleKeys was most likely not working for TPS. Sorry about that. It's fixed now :)
+
 # v1.3
 - Recompiled this version with .NET Framework 4.5 instead of 4.6.1
 
