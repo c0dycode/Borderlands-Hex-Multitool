@@ -30,16 +30,15 @@ Q: My Paths are not saving, what should I do?
 A: Go to "%localappdata%\BorderlandsHexMultitool" and delete the subfolders, then try again!
    If that also doesn't solve your problem, try running the tool as administrator. Should that also not work, please contact me!
 
-Q: Why is there no Sanity Check Bypass for Items yet?
-
-A: I haven't found a way to make it patchable yet. Patching them, makes the game no longer bootable. If you want/need this, use the Cheat Engine Table to use this bypass.
-
 Q: BabyRage ?
 
 A: BabyRage indeed BabyRage
 
 
 Changelog:
+# v1.5
+- Added the Sanity Check Bypass for Items to both games. A quick test kept the weapons in my inventory and game ran fine so far. Please test! :)
+
 # v1.4
 - Added Tooltips to "Enable" in "Console and Set Command", "Spacetrigger" in "Backpack" and "Array-Limit"
 - Added the possibility to set "Custom" ConsoleKeys. To activate, rightclick the Combobox where "F6" and "Tilde" are listed and check "Custom". 
@@ -54,3 +53,7 @@ Changelog:
 - Added checks for all Patches, so unchanged values are not being patched again
 - Added a MessageBox after applying the patch(es) - since you guys love that so much :P
 - Added this Readme
+
+Credits:
+- TechnoJackers	: Sanity Check Patterns
+- Shadowevil1996: Patterns that are needed to patch the console commands and a key-location that made the Levelpatching possible
