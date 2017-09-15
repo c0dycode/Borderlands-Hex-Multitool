@@ -1,4 +1,7 @@
-﻿# Installation
+﻿# Preview
+![UI](./Images/UI.png)
+
+# Installation
 This new version of the Multitool does not have to be in a specific place.
 
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
