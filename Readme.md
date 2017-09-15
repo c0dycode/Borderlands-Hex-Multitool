@@ -1,6 +1,9 @@
 ﻿# Installation
 This new version of the Multitool does not have to be in a specific place.
 
+NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
+	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
+
 # Usage
 First - Once you've opened up the tool, expand "Setup Filepaths" at the top.
 Now click on "Select Path" and choose either your "Borderlands2.exe" or "BorderlandsPreSequel.exe", depending on which button you clicked.
