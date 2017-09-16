@@ -42,6 +42,9 @@ A: BabyRage indeed BabyRage
 
 
 Changelog:
+# v1.6
+- Added the option to decide whether or not you want to apply the basic Hexediting (to use UCP for example) during startup.
+
 # v1.5
 - Added the Sanity Check Bypass for Items to both games. A quick test kept the weapons in my inventory and game ran fine so far. Please test! :)
 
@@ -63,3 +66,10 @@ Changelog:
 Credits:
 - TechnoJackers	: Sanity Check Patterns
 - Shadowevil1996: Patterns that are needed to patch the console commands and a key-location that made the Levelpatching possible
+
+Used NuGet Packages/Assemblies:
+- Caliburn.Mirco
+- Costury.Fody
+- Extended.Wpf.Toolkit
+- Fody
+- Ini.Net
