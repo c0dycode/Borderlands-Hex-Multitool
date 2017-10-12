@@ -42,6 +42,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.7
+- Fixed the Array-Limit Patch-detection
+
 ## v1.6
 - Added the option to decide whether or not you want to apply the basic Hexediting (to use UCP for example) during startup.
 
