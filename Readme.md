@@ -42,6 +42,10 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.8
+- Fixed showing the status of the Sanity Check Bypasses and Array-Limit
+- Added a small messagebox to inform the user that the tool is doing work
+
 ## v1.7
 - Fixed the Array-Limit Patch-detection
 
