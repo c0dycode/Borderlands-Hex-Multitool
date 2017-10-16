@@ -42,6 +42,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.9
+- Changed a bit of code, that should improve the speed of reading and writing all the needed data
+
 ## v1.8
 - Fixed showing the status of the Sanity Check Bypasses and Array-Limit
 - Added a small messagebox to inform the user that the tool is doing work
