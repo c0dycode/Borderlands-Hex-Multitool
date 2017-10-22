@@ -42,6 +42,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.10
+- Fixed an issue with enable/disable of the weapon sanity check bypass, caused by the changes made in v1.9
+
 ## v1.9
 - Changed a bit of code, that should improve the speed of reading and writing all the needed data
 
