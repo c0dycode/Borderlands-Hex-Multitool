@@ -82,7 +82,7 @@ A: BabyRage indeed BabyRage
 
 # Used NuGet Packages/Assemblies:
 - Caliburn.Mirco
-- Costury.Fody
+- Costura.Fody
 - Extended.Wpf.Toolkit
 - Fody
 - Ini.Net
