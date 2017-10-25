@@ -42,6 +42,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.11
+- Fixed an issue with the TPS-Patch to use the console (when the Tool offers you to patch the game if it hasn't yet. Choosing it manually, worked fine)
+
 ## v1.10
 - Fixed an issue with enable/disable of the weapon sanity check bypass, caused by the changes made in v1.9
 
