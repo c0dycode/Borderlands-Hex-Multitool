@@ -37,6 +37,7 @@ A: Yes. You can right click on the box where you enter your desired max level to
    At the time of the release of the v1.12 version these are these known issues:
    - Usually there is no Loot anymore (neither Ammo/Grenades in Boxes, Vendors or anywhere else)
    - Your game will most likely crash when saving/loading the game (if not at 93, it definitely does pretty much everytime beyond 100)
+   - The rule of thumb seems to be Max Level + OP levels => less than or equal 100 => No issues.
 
 Q: My Paths are not saving, what should I do?
 
