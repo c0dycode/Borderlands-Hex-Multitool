@@ -84,7 +84,7 @@ A: BabyRage indeed BabyRage
 - Shadowevil1996: Patterns that are needed to patch the console commands and a key-location that made the Levelpatching possible
 
 # Used NuGet Packages/Assemblies:
-- Caliburn.Mirco
+- Caliburn.Micro
 - Costura.Fody
 - Extended.Wpf.Toolkit
 - Fody
