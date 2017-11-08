@@ -31,6 +31,13 @@ Q: What is the Array-Limit?
 A: This is usually not needed. However, people that come across this limit now have an automatic way of patching. 
    Example here: https://github.com/c0dycode/BL2ModStuff/tree/master/Hexediting#removing-the-100-element-limit
 
+Q: Can I patch my game to level higher than 92 aswell?
+
+A: Yes. You can right click on the box where you enter your desired max level to "Unlock" it, up to 255.
+   At the time of the release of the v1.12 version these are these known issues:
+   - Usually there is no Loot anymore (neither Ammo/Grenades in Boxes, Vendors or anywhere else)
+   - Your game will most likely crash when saving/loading the game (if not at 93, it definitely does pretty much everytime beyond 100)
+
 Q: My Paths are not saving, what should I do?
 
 A: Go to "%localappdata%\BorderlandsHexMultitool" and delete the subfolders, then try again!
