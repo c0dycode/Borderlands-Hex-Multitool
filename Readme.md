@@ -42,6 +42,11 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.12
+- Added the option to "unlock" the Max Level-option to let you patch your max level up to 255, in case there ever will be someone planning on fixing the loading/saving crashes/missing loot (drops, ammo, vendors etc)
+  when patching beyond 92+OP8. To unlock it, simply right-click it and choose to "Unlock".
+  Use at your own risk, I won't fix/attempt to fix these crash issues.
+
 ## v1.11
 - Fixed an issue with the TPS-Patch to use the console (when the Tool offers you to patch the game if it hasn't yet. Choosing it manually, worked fine)
 
