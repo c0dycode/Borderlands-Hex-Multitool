@@ -6,6 +6,17 @@ This new version of the Multitool does not have to be in a specific place.
 
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
 	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
+	  
+# Features
+* Enable/Disable Console/Set-Command-Patch
+* Customize Console-Key
+* Patch Max. Currencies: Money
+* * BL2 specific: Eridium, Torgue and Seraph
+* * TPS specific: Moonstone
+* Maximum Level: ~92
+* Backpackspace: ~255
+* Array-Limit-Patch (see FAQ for more info)
+* Disable/Enable Sanity Checks
 
 # Features
 * Enable/Disable Console/Set-Command-Patch
