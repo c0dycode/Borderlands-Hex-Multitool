@@ -7,6 +7,18 @@ This new version of the Multitool does not have to be in a specific place.
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
 	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
 
+# Features
+* Enable/Disable Console/Set-Command-Patch
+* Customize Console-Key
+* Patch Max. Currencies: Money
+* * BL2 specific: Eridium, Torgue and Seraph
+* * TPS specific: Moonstone
+* Maximum Level: ~92
+* Backpackspace: ~255
+* Array-Limit-Patch (see FAQ for more info)
+* Disable/Enable Sanity Checks
+* Addings CustomPatches via. Textfiles
+
 # Usage
 First - Once you've opened up the tool, expand "Setup Filepaths" at the top.
 Now click on "Select Path" and choose either your "Borderlands2.exe" or "BorderlandsPreSequel.exe", depending on which button you clicked.
@@ -50,6 +62,14 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.14
+- Added CustomPatches (for more information about these, refer to the included CustomPatch Readme.txt)
+- Added a little bit of highlighting to the current section the mouse is over
+- Increased the size of the Gameicons
+
+## v1.13
+- Fixed an issue with reading values when switching from BL2 to TPS and back to BL2 for example.
+
 ## v1.12
 - Added the option to "unlock" the Max Level-option to let you patch your max level up to 255, in case there ever will be someone planning on fixing the loading/saving crashes/missing loot (drops, ammo, vendors etc)
   when patching beyond 92+OP8. To unlock it, simply right-click it and choose to "Unlock".
