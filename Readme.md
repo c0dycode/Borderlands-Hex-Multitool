@@ -6,17 +6,6 @@ This new version of the Multitool does not have to be in a specific place.
 
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
 	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
-	  
-# Features
-* Enable/Disable Console/Set-Command-Patch
-* Customize Console-Key
-* Patch Max. Currencies: Money
-* * BL2 specific: Eridium, Torgue and Seraph
-* * TPS specific: Moonstone
-* Maximum Level: ~92
-* Backpackspace: ~255
-* Array-Limit-Patch (see FAQ for more info)
-* Disable/Enable Sanity Checks
 
 # Features
 * Enable/Disable Console/Set-Command-Patch
@@ -28,7 +17,7 @@ NOTE: If you have used any standalone tools that are outdated, such as "Backpack
 * Backpackspace: ~255
 * Array-Limit-Patch (see FAQ for more info)
 * Disable/Enable Sanity Checks
-* Addings CustomPatches via. Textfiles
+* Adding CustomPatches via. Textfiles
 
 # Usage
 First - Once you've opened up the tool, expand "Setup Filepaths" at the top.
@@ -73,6 +62,11 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.15
+- Added a small bar at the bottom so YOU can get to this project on GitHub and open up issues or something :P
+- Fixed an issue which seems to have been only present on Windows 7
+- Added check for the given Filepath. If the provided path doesn't lead to an existing file, the Icon will stay Grayscaled! This is mainly to check filepaths via CLI
+
 ## v1.14
 - Added CustomPatches (for more information about these, refer to the included CustomPatch Readme.txt)
 - Added a little bit of highlighting to the current section the mouse is over
