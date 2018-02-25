@@ -15,6 +15,7 @@ NOTE: If you have used any standalone tools that are outdated, such as "Backpack
 * * TPS specific: Moonstone
 * Maximum Level: ~92
 * Backpackspace: ~255
+* Vaultspace   : ~255
 * Array-Limit-Patch (see FAQ for more info)
 * Disable/Enable Sanity Checks
 * Adding CustomPatches via. Textfiles
@@ -62,6 +63,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.16
+- Added Spacecustomization for the Vault/Bank
+
 ## v1.15
 - Added a small bar at the bottom so YOU can get to this project on GitHub and open up issues or something :P
 - Fixed an issue which seems to have been only present on Windows 7
