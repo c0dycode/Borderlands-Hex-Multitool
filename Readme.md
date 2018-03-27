@@ -15,7 +15,7 @@ NOTE: If you have used any standalone tools that are outdated, such as "Backpack
 * * TPS specific: Moonstone
 * Maximum Level: ~92
 * Backpackspace: ~255
-* Vaultspace   : ~255
+* Vaultspace   : ~42
 * Array-Limit-Patch (see FAQ for more info)
 * Disable/Enable Sanity Checks
 * Adding CustomPatches via. Textfiles
