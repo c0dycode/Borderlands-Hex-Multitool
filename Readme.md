@@ -63,6 +63,11 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.17
+- Fixed a few details
+- Added the option to unlock the max Backpackspace to 100k. Hover your mousecursor over the value-field for more info.
+- Added closing of the Filepath-Expander when the mouse leaves it for more than 3 seconds.
+
 ## v1.16
 - Added Spacecustomization for the Vault/Bank
 
