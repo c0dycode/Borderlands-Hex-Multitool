@@ -7,6 +7,12 @@ This new version of the Multitool does not have to be in a specific place.
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
 	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
 
+# Requirements:
+- .NET Framework 4.5
+
+## Note:
+Only legit copies of BL2/TPS are "supported".
+
 # Features
 * Enable/Disable Console/Set-Command-Patch
 * Customize Console-Key
@@ -63,6 +69,12 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.18
+- Added Licenses.txt
+- Added Backup/Restore feature
+- Increased the timer after which the Filepath-expander closes to 4 seconds
+- Added a colon to "Borderlands The Pre Sequel" (thanks LightChaosman :P)
+
 ## v1.17
 - Fixed a few details
 - Added the option to unlock the max Backpackspace to 100k. Hover your mousecursor over the value-field for more info.
