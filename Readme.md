@@ -25,6 +25,7 @@ Only legit copies of BL2/TPS are "supported".
 * Array-Limit-Patch (see FAQ for more info)
 * Disable/Enable Sanity Checks
 * Adding CustomPatches via. Textfiles
+* Installing and configuring my Autoexec DLL's (BL2 and TPS)
 
 # Usage
 First - Once you've opened up the tool, expand "Setup Filepaths" at the top.
@@ -69,6 +70,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.19
+- Added installation and configuration for my Autoexec DLL's (requires internet connection, since it directly downloads the zip from GitHub)
+
 ## v1.18
 - Added Licenses.txt
 - Added Backup/Restore feature
