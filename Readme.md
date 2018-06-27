@@ -70,6 +70,10 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.20
+- Switched Autoexec DLL's from steam_api.dll to PhysXExtensions.dll (fixes launching the game via steam).
+- Reverting changes related to steam_api.dll is done automatically when installing or uninstalling autoexec again
+
 ## v1.19
 - Added installation and configuration for my Autoexec DLL's (requires internet connection, since it directly downloads the zip from GitHub)
 
