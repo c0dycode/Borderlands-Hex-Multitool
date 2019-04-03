@@ -3,3 +3,5 @@
 - [x] Set/Say Patching
 - [x] ArrayLimit
 - [x] Backpackspace
+- [x] BackpackspaceTrigger
+- [x] Item SanityCheck Bypass
