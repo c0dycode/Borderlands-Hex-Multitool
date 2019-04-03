@@ -6,3 +6,4 @@
 - [x] BackpackspaceTrigger
 - [x] Item SanityCheck Bypass
 - [x] Weapon SanityCheck Bypass
+- [x] Max Level Patching
