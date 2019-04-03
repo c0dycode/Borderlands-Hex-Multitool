@@ -7,3 +7,5 @@
 - [x] Item SanityCheck Bypass
 - [x] Weapon SanityCheck Bypass
 - [x] Max Level Patching
+- [x] Currencies
+- [x] Vaultspace and Trigger
