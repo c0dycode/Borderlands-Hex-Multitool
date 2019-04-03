@@ -5,3 +5,4 @@
 - [x] Backpackspace
 - [x] BackpackspaceTrigger
 - [x] Item SanityCheck Bypass
+- [x] Weapon SanityCheck Bypass
