@@ -12,11 +12,11 @@
 
 ## TPS
 - [x] Set/Say Patching
-- [ ] ArrayLimit
-- [ ] Backpackspace
-- [ ] BackpackspaceTrigger
-- [ ] Item SanityCheck Bypass
-- [ ] Weapon SanityCheck Bypass
+- [x] ArrayLimit
+- [x] Backpackspace
+- [x] BackpackspaceTrigger
+- [x] Item SanityCheck Bypass
+- [x] Weapon SanityCheck Bypass
 - [ ] Max Level Patching
-- [ ] Currencies
+- [x] Currencies
 - [ ] Vaultspace and Trigger
