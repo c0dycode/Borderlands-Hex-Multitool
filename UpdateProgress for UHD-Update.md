@@ -17,6 +17,6 @@
 - [x] BackpackspaceTrigger
 - [x] Item SanityCheck Bypass
 - [x] Weapon SanityCheck Bypass
-- [ ] Max Level Patching
+- [x] Max Level Patching
 - [x] Currencies
-- [ ] Vaultspace and Trigger
+- [ ] Vaultspace and Trigger - open for testing, because I honestly don't know where the vault is :P
