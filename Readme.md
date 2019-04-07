@@ -70,10 +70,14 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
-#NOTE For now, reverted back to 1.18 due to issues with the Autoexec!
-## v1.20
-- Switched Autoexec DLL's from steam_api.dll to PhysXExtensions.dll (fixes launching the game via steam).
-- Reverting changes related to steam_api.dll is done automatically when installing or uninstalling autoexec again
+## v1.24
+- Should have fixed the ConsoleKey issue for good now
+- The first letter is now automatically capitalized for ConsoleKeys that are 1 or 2 characters long (Single letter or F1-12 (F10-F** extends the amount of characters to 3 for this))
+- Added MessageBox if the WillowInput.ini could not be found
+- Enabled overwriting the ConsoleKey even if WillowInput.ini is in read-only. (this only happens if you either Toggle the SetCommand status or the ConsoleKey itself)
+
+## v1.20 - v1.23
+- Basically various builds to include/improve compatability with the UHD-Update
 
 ## v1.19
 - Added installation and configuration for my Autoexec DLL's (requires internet connection, since it directly downloads the zip from GitHub)
