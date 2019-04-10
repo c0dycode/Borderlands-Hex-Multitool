@@ -5,7 +5,7 @@
 This new version of the Multitool does not have to be in a specific place.
 
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
-	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
+    either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
 
 # Requirements:
 - .NET Framework 4.5
@@ -70,6 +70,11 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.25
+- Added most of the possible Keys for "ConsoleKey"; Not every single one has been tested (Source: https://api.unrealengine.com/udk/Three/KeyBinds.html#Mappable%20keys)
+- Added a "donate"-Button at the bottom of the Multitool, 
+  since a few people have asked about a way to support me or give something back to me. To those who do and even those who consider, thank you so much <3
+
 ## v1.24
 - Should have fixed the ConsoleKey issue for good now
 - The first letter is now automatically capitalized for ConsoleKeys that are 1 or 2 characters long (Single letter or F1-12 (F10-F** extends the amount of characters to 3 for this))
