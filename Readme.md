@@ -5,7 +5,7 @@
 This new version of the Multitool does not have to be in a specific place.
 
 NOTE: If you have used any standalone tools that are outdated, such as "Backpack-Customizer" or old Multitools (if your tool has the "Backpack Testpatch" you should be fine), you may want to consider
-    either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
+	  either reverting these patches with these tools, or redownload the games exe via steam (only BL2) to avoid possible issues.
 
 # Requirements:
 - .NET Framework 4.5
@@ -63,6 +63,9 @@ Q: My Paths are not saving, what should I do?
 
 A: Go to "%localappdata%\BorderlandsHexMultitool" and delete the subfolders, then try again!
    If that also doesn't solve your problem, try running the tool as administrator. Should that also not work, please contact me!
+
+Q: I don't see any checkmarks, no matter what I do. Any idea?
+A: Disable any custom windows themes and try again. That should fix it!
 
 Q: BabyRage ?
 
