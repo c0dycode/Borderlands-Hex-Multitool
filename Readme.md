@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.27
+- Adjusted Patching of MaxLevel to 90 when a exe from the newest DLC is being opened to account for the 2 new OP Levels to avoid issues
+
 ## v1.26
 - Compatability-update for the Commander Lilith & The Fight For Sanctuary"-DLC
 
