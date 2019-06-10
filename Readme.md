@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.26
+- Compatability-update for the Commander Lilith & The Fight For Sanctuary"-DLC
+
 ## v1.25
 - Added most of the possible Keys for "ConsoleKey"; Not every single one has been tested (Source: https://api.unrealengine.com/udk/Three/KeyBinds.html#Mappable%20keys)
 - Added a "donate"-Button at the bottom of the Multitool, 
