@@ -73,6 +73,11 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.28
+- If the tool prompts, whether to apply the Console Patch or not, and the user selects yes, it'll now also set the ConsoleKey to F6 by default, if none has been set before.
+- Separated the "Apply" button from the Custom patches. They have their own "Apply" button now
+- Prevent the user from being able to click the "Apply" button if there are no changes. Does not apply to custom patches.
+
 ## v1.27
 - Adjusted Patching of MaxLevel to 90 when a exe from the newest DLC is being opened to account for the 2 new OP Levels to avoid issues
 
