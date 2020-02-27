@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.29
+- Should be fully compatible with the Feb 2020 update now
+
 ## v1.28
 - If the tool prompts, whether to apply the Console Patch or not, and the user selects yes, it'll now also set the ConsoleKey to F6 by default, if none has been set before.
 - Separated the "Apply" button from the Custom patches. They have their own "Apply" button now
