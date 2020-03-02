@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.30
+- Updated for compatability with the second update in 2020
+
 ## v1.29
 - Should be fully compatible with the Feb 2020 update now
 
