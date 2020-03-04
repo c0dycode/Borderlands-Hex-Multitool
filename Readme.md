@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.31
+- Added a patch to disable the mainmenu ads for BL3
+
 ## v1.30
 - Updated for compatability with the second update in 2020
 
