@@ -73,6 +73,10 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.33
+- Added an experimental versioncheck
+- Fixed a few typos
+
 ## v1.32
 - Updated due to the third update in 2020 >.>
 
@@ -192,6 +196,7 @@ A: BabyRage indeed BabyRage
 - Extended.Wpf.Toolkit
 - Fody
 - Ini.Net
+- Newtonsoft.Json
 
 # Support
 If you enjoy my work and would like to support me, feel free to do so here :)
