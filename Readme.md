@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.34
+- Added support for EPIC versions of the game
+
 ## v1.33
 - Added an experimental versioncheck
 - Fixed a few typos
