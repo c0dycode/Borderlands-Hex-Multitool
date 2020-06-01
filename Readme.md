@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.36
+- Fixed an issue with TPS Max Level Detection for the Steamupdate
+
 ## v1.35
 - Updated for compatability with fourth steam update & second epic update versions
 
