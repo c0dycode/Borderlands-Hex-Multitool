@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.35
+- Updated for compatability with fourth steam update & second epic update versions
+
 ## v1.34
 - Added support for EPIC versions of the game
 
