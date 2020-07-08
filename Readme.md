@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.37
+- Fixed a bug that'd prevent you from setting your MaxLevel in BL2 below 80
+
 ## v1.36
 - Fixed an issue with TPS Max Level Detection for the Steamupdate
 
