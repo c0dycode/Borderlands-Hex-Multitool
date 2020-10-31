@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Borderlands Hex Multitool - WebEdition</title>
+    <meta name="description" content="Borderlands Hex Multitool directly from the web! Powered by WebAssembly!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./wasm_exec.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="./main.js" defer></script>
+</head>
+<header>
+    <h1>Borderlands Hex Multitool</h1>
+    <p>How to use:<br>
+        1) Use the "Browse..."-button and select your games executable<br>
+        2) Select your desired options down below<br>
+        3) Click the "Save"-button and "download" your modified exe-file and replace it with your own<br>
+        4) Profit<br><br>
+
+        * Note: Example locations for your exe:<br>
+        C:\Program Files (x86)\Steam\steamapps\common\Borderlands 2\Binaries\Win32\Borderlands 2.exe<br>
+        C:\Program Files (x86)\Epic Games\Borderlands2\Binaries\Win32\Borderlands 2.exe<br><br>
+        **Note: This does NOT edit your WillowInput.ini-file to set a ConsoleKey!<br>
+        ***Note: Currently, only Windows executables are supported!
+    </p>
+    <div class="warning">
+        <p>All of this is still in beta! It is not guaranteed to work for everyone. If you experience
+            any
+            issues, try in a different browser!</p>
+    </div>
+
+</header>
+
+<body>
+    <label id="gameTitle">No game detected!</label>
+    <br>
+    <input type="file" id="fileInput" accept=".exe">
+    <br><br>
+    <input type="button" id="saveButton" value="Save File" id="saveButton">
+    <!-- BL2 -->
+    <div id="bl2Container">
+        <button type="button" id="bl2General" class="collapsible" hidden="true">Patching</button>
+        <div class="content">
+            <input type="checkbox" id="bl2EnableConsole"><label>Enable Console Commands</label>
+            <br>
+            <input type="number" id="bl2MaxMoney" min="99999999" max="2147483647" value="99999999"><label>Max
+                Money</label>
+            <input type="number" id="bl2MaxEridium" min="500" max="2147483647" value="500"><label>Max Eridium</label>
+            <br>
+            <input type="number" id="bl2MaxTorgue" min="999" max="2147483647" value="999"><label>Max Torgue</label>
+            <input type="number" id="bl2MaxSeraph" min="999" max="2147483647" value="999"><label>Max Seraph</label>
+            <br>
+            <input type="number" id="bl2MaxLevel" min="69" max="90" value="80"><label>Max Level</label>
+            <br>
+            <input type="number" id="bl2MaxBackpack" min="39" max="255" value="39"><label>Max Backpackspace</label>
+            <br>
+            <input type="number" id="bl2MaxVault" min="24" max="42" value="24"><label>Max Vaultspace</label>
+            <br>
+            <input type="checkbox" id="bl2ArrayLimit"><label>Disable Array-Limit</label>
+            <br>
+            <input type="checkbox" id="bl2WeaponSanity"><label>Disable Weapon SanityCheck</label>
+            <input type="checkbox" id="bl2ItemSanity"><label>Disable Item SanityCheck</label>
+            <br>
+            <input type="checkbox" id="bl2Ads"><label>Disable BL3 Ads</label>
+        </div>
+    </div>
+    <!-- TPS -->
+    <div id="tpsContainer">
+        <button type="button" id="tpsGeneral" class="collapsible" hidden="true">Patching</button>
+        <div class="content">
+            <input type="checkbox" id="tpsEnableConsole"><label>Enable Console Commands</label>
+            <br>
+            <input type="number" id="tpsMaxMoney" min="99999999" max="2147483647" value="99999999"><label>Max
+                Money</label>
+            <input type="number" id="tpsMaxMoonstone" min="500" max="2147483647" value="500"><label>Max
+                Moonstone</label>
+            <br>
+            <input type="number" id="tpsMaxLevel" min="69" max="92" value="80"><label>Max Level</label>
+            <br>
+            <input type="number" id="tpsMaxBackpack" min="39" max="255" value="39"><label>Max Backpackspace</label>
+            <br>
+            <input type="number" id="tpsMaxVault" min="24" max="42" value="24"><label>Max Vaultspace</label>
+            <br>
+            <input type="checkbox" id="tpsArrayLimit"><label>Disable Array-Limit</label>
+            <br>
+            <input type="checkbox" id="tpsWeaponSanity"><label>Disable Weapon SanityCheck</label>
+            <input type="checkbox" id="tpsItemSanity"><label>Disable Item SanityCheck</label>
+            <br>
+            <input type="checkbox" id="tpsAds"><label>Disable BL3 Ads</label>
+        </div>
+    </div>
+    <div class="fixed-footer">
+        <label>Log:</label>
+        <div class="container" id="footer">
+            <!-- <input type="button" value="Clear Log" id="clearButton"> -->
+            <p id="log"></p>
+        </div>
+    </div>
+</body>
+
+</html>
