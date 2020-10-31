@@ -47,7 +47,11 @@ function readFile(file) {
         var contents = new Uint8Array(event.target.result);
         binLength = event.total;
         getBytes(contents);
-        // console.log(contents);
+        if (currentGame == "BL2") {
+            document.getElementById("bl2General").click()
+        } else if (currentGame == "TPS") {
+            document.getElementById("tpsGeneral").click()
+        }
     }
     binName = file.name;
     reader.readAsArrayBuffer(file);
