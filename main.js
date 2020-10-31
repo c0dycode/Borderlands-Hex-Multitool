@@ -62,6 +62,7 @@ function getStorageItem(itemName) {
 }
 
 function setStorageItem(itemname, value) {
+    localStorage.removeItem(itemname);
     let buf = _base64ToArray(value);
     localStorage.setItem(itemname, buf);
 }
