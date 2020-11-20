@@ -25,6 +25,7 @@ Only legit copies of BL2/TPS are "supported".
 * Array-Limit-Patch (see FAQ for more info)
 * Disable/Enable Sanity Checks
 * Adding CustomPatches via. Textfiles
+* Installing and configuring my Autoexec DLL's (BL2 and TPS)
 
 # Usage
 First - Once you've opened up the tool, expand "Setup Filepaths" at the top.
@@ -72,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.38
+- Added a more meaningful message if the user tries to open a shortcut instead of the games exe
+
 ## v1.37
 - Fixed a bug that'd prevent you from setting your MaxLevel in BL2 below 80
 
