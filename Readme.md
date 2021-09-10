@@ -73,6 +73,12 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.39
+- Updated for the 2021 Update that added Wonderland ads to the game
+- Fixed restoring of backups
+- Removed online update check & message of the day
+- Added PixiKamesei (adudney)'s Level Cap CustomPatches (use at your own risk)
+
 ## v1.38
 - Added a more meaningful message if the user tries to open a shortcut instead of the games exe
 
