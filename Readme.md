@@ -73,6 +73,9 @@ A: BabyRage indeed BabyRage
 
 
 # Changelog:
+## v1.40
+- Update for the 2022 Update
+
 ## v1.39
 - Updated for the 2021 Update that added Wonderland ads to the game
 - Fixed restoring of backups
